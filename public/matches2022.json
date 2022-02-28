@@ -1,0 +1,43 @@
+{
+    "leftTop": {
+        "match01": ["Nice to See You", "Set Piece"],
+        "match02": ["KW", "Moon Hits"],
+        "match03": ["Brown Study", "Halcyon Age"],
+        "match04": ["Precis", "Synth Man"],
+        "match05": ["Above the Highway", "From The Subway Train"],
+        "match06": ["Angel Youth", "Lonely Zone"],
+        "match07": ["Reflections No. 3 & 4", "About the World"],
+        "match08": ["Star Catcher", "Wonderland"]
+    },
+    "leftBottom" : {
+        "match09": ["The Latter Teens", "Driftless"],
+        "match10": ["Every Time Around", "Just The Right Song"],
+        "match11": ["Reflection No. 6", "Reflection No. 2"],
+        "match12": ["Eleven Weeks", "To Not Pretend"],
+        "match13": ["Precis Two", "Central Time"],
+        "match14": ["Pale Blue", "Four Portraits"],
+        "match15": ["Next Best Thing", "Fillmore County"],
+        "match16": ["Yours Truly", "The Western Modern World"]
+    },
+    "rightTop": {
+        "match17": ["Bridges For The Young", "Freebie"],
+        "match18": ["Force Majeure", "Love You Too"],
+        "match19": ["Postal Codes", "The Life We Live"],
+        "match20": ["Montana Girl", "Suits and Coats"],
+        "match21": ["Superior Hiking Trail", "Reflections"],
+        "match22": ["Reveries", "Water Boils"],
+        "match23": ["Pontchartrain", "Freebie"],
+        "match24": ["Father's Ramble", "Swarther's Gamble"]
+    },
+    "rightBottom": {
+        "match25": ["Halcyon Age (FM)", "Halcyon Age (AT)"],
+        "match26": ["Metamodernity", "That I Miss You"],
+        "match27": ["Metamodernity (FM)", "Metamodernity (AT)"],
+        "match28": ["Eleven Weeks (FM)", "Eleven Weeks (AT)"],
+        "match29": ["The Latter Teens (FM)", "Wonderland (AT)"],
+        "match30": ["Angel Youth (AT)", "Driftless (FM)"],
+        "match31": ["Reflection No. 5", "The Wonderwall"],
+        "match32": ["That I Miss You (FM)", "Freebie"]
+    }
+    
+}

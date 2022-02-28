@@ -1,0 +1,29 @@
+letsencrypt:
+  image: linuxserver/letsencrypt
+  container_name: letsencrypt
+  cap_add:
+    - NET_ADMIN
+  environment:
+    - PUID=1000
+    - PGID=1000
+    - TZ="Los Angeles"
+    - URL= andrewsamuelson.dev
+    - SUBDOMAINS=mongoose
+    - VALIDATION=dns
+    - DNSPLUGIN=cloudflare #optional
+    - EMAIL=andy.samuelson@gmail.com #optional
+    - DHLEVEL=2048 #optional
+    - ONLY_SUBDOMAINS=true #optional
+  # volumes:
+  #   - ${MOUNT_POINT}/letsencrypt:/config
+  ports:
+    - 443:443
+    - 80:80 #optional
+  restart: unless-stopped
+mongoose:
+  build: .
+  restart: unless-stopped
+  volumes:
+    - ./data/mongoose/conf:/etc/letsencrypt
+    - ./data/mongoose/www:/var/www/mongoose
+  entrypoint: "npm run start"
